@@ -7,7 +7,12 @@ var PORT = 3000
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.use(express.static('public'));
+app.use(express.static('app/public'));
+
+require("./app/routing/htmlRoutes")(app);
+// app.get("/", function(req, res) {
+//   res.sendFile(path.join(__dirname, "app/public/survey.html"));
+// });
 
 // Listen up
 app.listen(PORT, function() {
