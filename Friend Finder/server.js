@@ -10,6 +10,7 @@ app.use(express.json());
 app.use(express.static('app/public'));
 
 require("./app/routing/htmlRoutes")(app);
+require("./app/routing/apiRoutes")(app);
 // app.get("/", function(req, res) {
 //   res.sendFile(path.join(__dirname, "app/public/survey.html"));
 // });

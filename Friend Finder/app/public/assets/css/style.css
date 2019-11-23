@@ -6,3 +6,25 @@
     color: white;
     padding: 30px;
 }
+.radioOption {
+    margin: 10px;
+}
+body {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+td {
+    font-size: medium;
+    text-justify: center;
+    text-align: center;
+}
+.question {
+    font-size: larger;
+    background-color: rgba(0, 0, 255, 0.466);
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+}
+.smallQuestion {
+    margin: 10px;
+}

@@ -19,9 +19,26 @@
     </div>
     <div class="row" id="rankings">
     </div>
+    <div class="row">
+            <div class="smallQuestion">
+                <div>First Name</div>
+                <input type="text" name="first_name" id="first_name">
+            </div>
+            <div class="smallQuestion">
+                <div>Last Name</div>
+                <input type="text" name="last_name" id="last_name">
+            </div>
+    </div>
+    <div class="row">
+            <div class="smallQuestion">
+                <div>Nickname</div>
+                <input type="text" name="nickname" id="nickname">
+            </div>
+    </div>
     <div class="row" id="formDiv">
-        <form id="survey">
-            
+        <form id="form" method="post">
+
+            <input type="submit" value="Submit" class="submit" action="/api/apiRoutes">
         </form>
     </div>
 </body>
