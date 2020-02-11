@@ -1,6 +1,6 @@
 
 
-var peopleData = require("../data/friends.js");
+var peopleData = require("../data/friends.js.js");
 
 function indexOfSmallest(a) {
     var lowest = 0;
