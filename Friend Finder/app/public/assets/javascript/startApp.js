@@ -76,5 +76,7 @@ $(".submit").on("click", function(event) {
     $.post("/api/people", newPerson,
       function(data) {
         console.log(newPerson)
-});
+    }).then(function(res){
+        alert("you happen to match... " + res.first_name + " " + res.last_name + " also know as" + res.nickname)
+    })
 });
